@@ -1,0 +1,164 @@
+header{
+	width: auto;
+	background-color: #c0c0c0;
+	height: 100px;
+}
+
+main{
+	height: 1500px;
+	display: grid;
+	width: auto;
+	grid-template-columns: 1fr 3fr 1fr;
+	justify-content: center;
+}
+
+textarea {
+  resize: none;
+  width: 90%;
+  height: 30%;
+}
+
+.stickypaper li{
+  color: #2d8fdd;
+  border-left: solid 6px #2d8fdd;/*左側の線*/
+  background: #f1f8ff;/*背景色*/
+  margin-bottom: 3px;/*下のバーとの余白*/
+  line-height: 1.5;
+  padding: 0.5em;
+  list-style-type: none!important;/*ポチ消す*/
+  -webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+}
+
+h2{
+  color: #2d8fdd;
+}
+
+.category{
+	margin-top: 20px;
+}
+
+.img{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#inputlength{
+	margin-right: 3%;
+	text-align: right;
+}
+
+.post_forms{
+	margin-left: 5%;
+}
+
+.post_forms #file_input{
+	display: none;
+	width: 20%;
+}
+
+.post_forms #maintext{
+	color: gray;
+}
+
+#list,
+#file{
+	display: inline-block;
+}
+
+#uploaded_filename{
+	font-size: 10px;
+}
+
+#label_for_file_input{
+	cursor: pointer;
+	border-radius: 10px;
+	font-size: 15px;
+	color: #AAAAAA;	/* ラベルテキストの色を指定する */
+	background-color: #006DD9;/* ラベルの背景色を指定する */
+	padding: 2px;	/* ラベルとテキスト間の余白を指定する */
+	border: double 4px #AAAAAA;/* ラベルのボーダーを指定する */
+}
+
+.maincenter{
+	background-color: #c0c0c0;
+	height: 1500px;
+	display: grid;
+	grid-template-rows: 50px 8fr 2fr;
+}
+
+.lower-mc{
+	background-color: #c0c0c0;
+}
+
+.upper-mc{
+	margin-top: 10px;
+	overflow: scroll;
+}
+
+.contents_window{
+	padding: 8px 5px;
+	border-radius: 10px;
+	background-color: gray;
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.contents_window .game_name{
+	font-size: 13px;
+}
+
+.contents_window .content{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.contents_window .date_time{
+	width: 100%;
+	text-align: right;
+	font-size: 5px;
+}
+
+
+.mainleft,
+.mainright{
+	background-color: #c0c0c0;
+	height: 1500px;
+}
+
+
+footer{
+	width: 100%;
+	background-color: #c0c0c0;
+	color: #fff;
+	text-align: center;
+	padding: 10px 0;
+}
+
+h1{
+	width: auto;
+	height: 80px;
+	font-size: 50px;
+	margin: 0 auto;
+	padding-top: 10px;
+	color: #fff;
+	text-align: center;
+}
+
+.h1_smallwind{
+	width: auto;
+	height: 80px;
+	font-size: 30px;
+	margin: 0 auto;
+	padding-top: 10px;
+	color: #fff;
+	text-align: center;
+}
+
+body{
+	background-color: #c0c0c0;
+}

@@ -1,0 +1,39 @@
+body{
+	background-color: #c0c0c0;
+}
+
+header{
+	width: auto;
+	background-color: #c0c0c0;
+	height: 100px;
+}
+
+h1{
+	width: auto;
+	height: 80px;
+	font-size: 50px;
+	margin: 0 auto;
+	padding-top: 10px;
+	color: #fff;
+	text-align: center;
+}
+
+footer{
+	width: 100%;
+	background-color: #c0c0c0;
+	color: #fff;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.main{
+	margin-top: 5%;
+	text-align: left;
+}
+
+.buttons{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 5%;
+}
