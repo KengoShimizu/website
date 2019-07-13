@@ -5,14 +5,14 @@ This web site was created in local network just to study about web development. 
 
 ## menu bar on the left
 The menu bar is implemented and it displays games that are sorted based on the initial character.
-![demo](https://raw.github.com/wiki/takuyama29/WorldTracking/images/Untitled.gif)
+![demo](https://github.com/KengoShimizu/website/blob/master/sort.mov.gif)
 
 ## shrink the image
 This website has a feature that you can upload a image and when it downloads a image from client side to server side, the image is shrinked to 500px at maximum so that the server could save some memories.  
 
 ## display in time line
 The thread is displayed in time line from the top.
-![demo](https://raw.github.com/wiki/takuyama29/WorldTracking/images/Untitled.gif)
+![demo](https://github.com/KengoShimizu/website/blob/master/timeline.mov.gif)
 
 ## confirm display
 There is a confirmation display when you try to upload your opinion.
